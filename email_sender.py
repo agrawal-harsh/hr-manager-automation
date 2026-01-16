@@ -21,7 +21,6 @@ def get_gmail_service():
         )
         creds = flow.run_local_server(port=0)
 
-        # 🔴 CRITICAL
         with open('token.json', 'w') as token:
             token.write(creds.to_json())
 

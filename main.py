@@ -13,8 +13,8 @@ logging.basicConfig(
     format="%(asctime)s - %(message)s"
 )
 
-# df = pd.read_excel("input/employees.xlsx")
-df = pd.read_excel("input/test_employees.xlsx")
+# df = pd.read_excel("input/employees.xlsx")  # Use this line for actual usecase
+df = pd.read_excel("input/test_employees.xlsx")  
 
 
 grouped = df.groupby(["Manager Name", "Manager Email"])

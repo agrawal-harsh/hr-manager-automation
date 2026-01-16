@@ -1,0 +1,48 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# -----------------------------
+# Virtual Environment
+# -----------------------------
+venv/
+.env/
+.venv/
+
+# -----------------------------
+# Google OAuth / Secrets (CRITICAL)
+# -----------------------------
+credentials.json
+token.json
+
+# -----------------------------
+# Input / Output Data
+# -----------------------------
+
+# -----------------------------
+# Excel / Temp Files
+# -----------------------------
+*.xlsx
+*.xls
+*.csv
+~$*.xlsx
+
+# -----------------------------
+# OS / Editor Files
+# -----------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# -----------------------------
+# Jupyter (if used later)
+# -----------------------------
+.ipynb_checkpoints/
